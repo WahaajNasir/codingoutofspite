@@ -4,7 +4,9 @@ void reverse(int arr[], size_t no_of_elements)
 {
     int j,k;
     j = 0; k = no_of_elements - 1;
-    for(; (no_of_elements % 2 == 0)? j < ((no_of_elements / 2) - 1): j == no_of_elements / 2 ; j++, k--)
+    // Much more complicated way of doing it, since i was stuck in the logic of even and odd lengths
+    //for(; (no_of_elements % 2 == 0)? j < ((no_of_elements / 2) - 1): j == no_of_elements / 2 ; j++, k--)
+    for (; j < k; j++, k--)
     {
         int temp = arr[j];
         arr[j] = arr[k];
