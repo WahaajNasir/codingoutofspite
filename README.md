@@ -19,4 +19,4 @@ What have we learnt today?
 - `malloc` and `free` are in the `stdlib.h` header, not `stdio.h`. In hindsight, this should have been obvious
 - Strings dont exist in C, they are just arrays of characters.
 - You need to do some pointer manipulation to get strings with variable values (See `snprintf`)
-- Sometimes we needlessly complicate a very simple condition (See [here](Day 1\ReversingAnArray\main.c) )
+- Sometimes we needlessly complicate a very simple condition (See [here](./Day%201/ReversingAnArray/main.c))
