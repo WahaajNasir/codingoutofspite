@@ -13,3 +13,17 @@ What have we learnt today?
 - a comma operator exists in C/C++ for left to right executions
 - unions exist which basically let you create your own custom datatype.
 - `fstream` is'nt the only file read-write library and stdio actually has its own version which we can access using `fputs(), fgets() and FILE*`
+
+## Day 1: Arrays and Strings
+What have we learnt today?
+- `malloc` and `free` are in the `stdlib.h` header, not `stdio.h`. In hindsight, this should have been obvious
+- Strings dont exist in C, they are just arrays of characters.
+- You need to do some pointer manipulation to get strings with variable values (See `snprintf`)
+- Sometimes we needlessly complicate a very simple condition (See [here](Day 1\ReversingAnArray\main.c))
+
+## Day 2: Multidimensional Arrays, Dyamic Programming and User-Defined Datatypes
+- Usage of Multidimensional Arrays in C
+- Pointers and Dynamic Programming related to arrays is complicated
+- This repo is a pointer pointing to a pointer pointing to an array of characters that hold the value of "My brain is dead"
+- Struct is similar to classes in C++, but theres no concept of a `method`
+- C takes the OOP functionalities of C++ and says "Go to hell"
