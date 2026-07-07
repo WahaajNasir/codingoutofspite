@@ -27,3 +27,8 @@ What have we learnt today?
 - This repo is a pointer pointing to a pointer pointing to an array of characters that hold the value of "My brain is dead"
 - Struct is similar to classes in C++, but theres no concept of a `method`
 - C takes the OOP functionalities of C++ and says "Go to hell"
+
+## Day 3: Basic Logic Questions
+- Sometimes, adding loops and arrays is pointless when the math already exists
+- Simple is better. A swap does not need a compilicated `XOR` when we can use a 3rd variable
+- Logic building is better done on paper
