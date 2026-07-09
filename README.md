@@ -32,3 +32,7 @@ What have we learnt today?
 - Sometimes, adding loops and arrays is pointless when the math already exists
 - Simple is better. A swap does not need a compilicated `XOR` when we can use a 3rd variable
 - Logic building is better done on paper
+
+## Day 4: More Logic Questions!
+- Every integer in this world can be represented by the expression `6k+r`
+- Prime Number Detection can be optimized to $O(\sqrt{n})$
