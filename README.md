@@ -35,4 +35,6 @@ What have we learnt today?
 
 ## Day 4: More Logic Questions!
 - Every integer in this world can be represented by the expression `6k+r`
-- Prime Number Detection can be optimized to $O(\sqrt{n})$
+- Prime Number Detection can be optimized to $O(\sqrt{n})$ (See notes for proof)
+- Even for cube root pairs, we can optimize it to $O(\sqrt[3]{n})$
+- Using $\log$ rules makes power and exponent finding operations much easier
